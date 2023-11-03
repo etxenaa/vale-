@@ -1,0 +1,11 @@
+--- 
+
+deployment: 
+
+tasks:
+- export DEPLOYPATH=/home/aimareze/sites/vale.aimare.zerbitzaria.net
+- rm -Rf $DEPLOYPATH/*
+- cp -Rf css $DEPLOYPATH
+- cp -Rf html $DEPLOYPATH
+- cp -Rf img $DEPLOYPATH
+- cp -Rf js $DEPLOYPATH
